@@ -1,0 +1,23 @@
+ 
+server:
+   port: 8081
+spring:
+   application:
+       name: inventory-mgmt
+   profiles:
+    active:
+    - dev       
+    
+network:
+   businessType: retailer
+   location: national    
+    
+    
+management: 
+    endpoint:
+      refresh:
+        enabled: true
+    endpoints:
+        web:
+          exposuer:
+             - refresh       

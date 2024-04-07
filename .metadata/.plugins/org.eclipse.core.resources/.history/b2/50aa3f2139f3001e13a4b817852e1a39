@@ -1,0 +1,9 @@
+spring:
+  config:
+    import:
+      -configserver:http://localhost:8080/
+  cloud:
+    config:
+       username: saquib
+       password: system    
+   

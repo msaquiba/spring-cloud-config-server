@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888
+
+  cloud:
+    config:
+       username: saquib
+       password: system    
+   
